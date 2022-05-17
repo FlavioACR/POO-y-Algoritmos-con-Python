@@ -1,2 +1,2 @@
-# -POO-y-Algoritmos-con-Python
+# POO y Algoritmos con Python
  Programación Orientada a Objetos  y Algoritmos con Python
