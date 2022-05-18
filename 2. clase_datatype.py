@@ -12,7 +12,7 @@ class Persona:
         return f'Hola {otra_persona.nombre}, me llamo {self.nombre}.'
 
 # Uso:
-# Instanciamo la clase, definiendo la y llamandola en una variable:
+# Instanciamos la clase, definiendo la y llamandola en una variable:
 david = Persona('David', 35)
 erika = Persona('Erika', 32)
 
