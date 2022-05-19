@@ -12,3 +12,20 @@ Para hacer esto se genera una interfaz para interactuar con las clases.
 
 
 '''
+
+# Ejemplificación:
+
+class Lavadora:
+
+    def __init__(self):
+        pass
+    
+    # Metodo publico:
+    def lavar(self, temperatura='caliente'):
+        # Al usuario no le interesa el funcionamiento,
+        # por lo cual se usaran variables privadas.
+        self._llenar_tanque_de_agua(temperatura)
+        self._añadir_jabon()
+        self._lavar()
+        self._sentrifugar()
+
