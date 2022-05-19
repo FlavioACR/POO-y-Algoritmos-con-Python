@@ -27,6 +27,15 @@ def información_instancias():
     * Cuando se crea una instancia, se ejecuta el método __init__
     * Todos los elementos de una clase reciben implicitamente como primer 
       parametro self.
+    
+    * Los atributos de clase nos permiten:
+        * Representar datos
+        * Procedimientos para interactuar con los mismos (métodos)
+        * Mecanismos para esconder la representacion interna
+    * Se accede a los atributos con la notación de punto.
+    * Puede tener atributos privasdos. Por convención comienzan con _.
+
+    
     '''
     
     return help(información_instancias())
