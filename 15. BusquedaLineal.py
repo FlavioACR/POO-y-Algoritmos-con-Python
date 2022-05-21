@@ -13,7 +13,7 @@ def busqueda_lineal(lista, objetivo):
     # Variable que expres si se ha encontrado o no el objetivo:
     match = False
 
-    for elemento in lista:
+    for elemento in lista: #  O(n)
         if elemento == objetivo:
             match = True
             break
@@ -29,6 +29,7 @@ if __name__ == '__main__':
     
     print(lista)
     # Operadores Tenarios:
+    # Permite hacer un if en una linea
     print(f'El elemento {objetivo} {"esta" if encontrado else "no esta"} en la lista')
 
 
